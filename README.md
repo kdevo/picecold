@@ -2,7 +2,7 @@ Pyotek presents ...
 
 ![logo](.github/logo.png "PiceCold")
 
-... for transforming your Pi to a cold storage for your bitcoins
+... transforming your Pi to a cold storage for your bitcoins
 
 ## Requirements
 - Raspberry Pi (Zero, B+, 2 or 3)

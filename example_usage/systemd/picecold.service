@@ -1,0 +1,14 @@
+[Unit]
+Description=PiceCold Startup
+After=syslog.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/PiceCold/example_usage
+ExecStart=/home/pi/PiceCold/example_usage/start.py
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
